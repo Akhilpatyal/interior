@@ -249,6 +249,42 @@
                 },
             });
         }
+        //>> work-slider Start <<//
+        if($('.work-slider').length > 0) {
+            const portfolioSlider = new Swiper(".work-slider", {
+                spaceBetween: 30,
+                speed: 1000,
+                loop: true,
+                autoplay: {
+                    delay: 1500,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: ".array-prev",
+                    prevEl: ".array-next",
+                },
+                breakpoints: {
+                    1399: {
+                        slidesPerView: 3,
+                    },
+                    1199: {
+                        slidesPerView: 3,
+                    },
+                    991: {
+                        slidesPerView: 2,
+                    },
+                    767: {
+                        slidesPerView: 2,
+                    },
+                    575: {
+                        slidesPerView: 1,
+                    },
+                    0: {
+                        slidesPerView: 1,
+                    },
+                },
+            });
+        }
 
         if($('.portfolio-slider-2').length > 0) {
             const portfolioSlider2 = new Swiper(".portfolio-slider-2", {
