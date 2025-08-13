@@ -10865,7 +10865,7 @@ p.sticky-label {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0)),
     /* Black Gradient */
-    url("../img/banner1.png") no-repeat center center/cover;
+    url("/assets/img/banner1.png") no-repeat center center/cover;
   /* Background Image */
 }
 
