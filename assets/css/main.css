@@ -10861,33 +10861,29 @@ p.sticky-label {
 .swiper-slide .slide-01 {
   transform-origin: 50% 50%;
 
-  background: linear-gradient(to right,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0)),
-    /* Black Gradient */
-    url("../img/banner1.png") no-repeat center center/cover;
+
   /* Background Image */
 }
 
 .swiper-slide .slide-02 {
   transform-origin: 50% 50%;
 
-  background: linear-gradient(to right,
+  /* background: linear-gradient(to right,
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0)),
-    /* Black Gradient */
-    url("../img/banner2.png") no-repeat center center/cover;
+
+    url("../img/banner2.png") no-repeat center center/cover; */
   /* Background Image */
 }
 
 .swiper-slide .slide-03 {
   transform-origin: 50% 50%;
 
-  background: linear-gradient(to right,
+  /* background: linear-gradient(to right,
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0)),
-    /* Black Gradient */
-    url("../img/banner3.png") no-repeat center center/cover;
+
+    url("../img/banner3.png") no-repeat center center/cover; */
   /* Background Image */
 }
 
