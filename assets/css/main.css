@@ -3184,6 +3184,7 @@ input.main-search-input::placeholder {
   z-index: 9;
   border-radius: 5px;
   color: black;
+  max-height: 450px!important;
 }
 
 @media (max-width: 575px) {
