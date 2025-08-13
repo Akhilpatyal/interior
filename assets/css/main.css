@@ -10865,7 +10865,7 @@ p.sticky-label {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0)),
     /* Black Gradient */
-    url("/assets/img/banner1.png") no-repeat center center/cover;
+    url("../img/banner1.png") no-repeat center center/cover;
   /* Background Image */
 }
 
@@ -10876,7 +10876,7 @@ p.sticky-label {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0)),
     /* Black Gradient */
-    url("/assets/img/banner2.png") no-repeat center center/cover;
+    url("../img/banner2.png") no-repeat center center/cover;
   /* Background Image */
 }
 
@@ -10887,7 +10887,7 @@ p.sticky-label {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0)),
     /* Black Gradient */
-    url("/assets/img/banner3.png") no-repeat center center/cover;
+    url("../img/banner3.png") no-repeat center center/cover;
   /* Background Image */
 }
 
