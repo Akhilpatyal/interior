@@ -660,3 +660,24 @@
     
 })(jQuery); // End jQuery
 
+// Split text into spans
+const h3 = document.querySelector(".animated-text");
+const text = h3.textContent;
+h3.innerHTML = text.split("").map(letter => `<span>${letter}</span>`).join("");
+
+// Hover animation
+const letters = h3.querySelectorAll("span");
+
+document.querySelector(".franchise").addEventListener("mouseenter", () => {
+  gsap.fromTo(
+    letters,
+    { opacity: 0, y: 30 },  // start below + invisible
+    {
+      opacity: 1,
+      y: 0,
+      stagger: 0.05,       // delay between each letter
+      duration: 0.6,
+      ease: "power3.out"
+    }
+  );
+});

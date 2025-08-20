@@ -10435,7 +10435,7 @@ p.sticky-label {
   border-radius: 5px;
 }
 
-.contact-wrapper-3 .contact-content {
+.contact-wrapper-3 .contact-content,.contact-wrapper-4 .contact-content {
   background-color: var(--white);
   border-radius: 0 0 5px 0;
   padding: 40px;
@@ -10447,7 +10447,8 @@ p.sticky-label {
 }
 
 .contact-wrapper-3 .contact-content .contact-form-items .form-clt input,
-.contact-wrapper-3 .contact-content .contact-form-items .form-clt textarea {
+.contact-wrapper-3 .contact-content .contact-form-items .form-clt textarea,.contact-wrapper-4 .contact-content .contact-form-items .form-clt input,
+.contact-wrapper-4 .contact-content .contact-form-items .form-clt textarea {
   width: 100%;
   outline: none;
   border: 1px solid var(--border);
@@ -11062,8 +11063,9 @@ p.sticky-label {
 .video-icon {
   position: absolute;
   z-index: 9999;
-  bottom: 45%;
+  bottom: 50%;
   left: 50%;
+transform: translate(-50%,50%);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -11109,4 +11111,28 @@ p.sticky-label {
 }
 .hover-scale:hover {
   transform: scale(1.05); /* use transform instead of scale property */
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit; /* keeps rounded corners if parent has */
+  background: radial-gradient(
+    circle, 
+    rgba(0, 0, 0, 0.2) 0%,   /* lighter in the center */
+    rgba(0, 0, 0, 0.7) 100%  /* darker at the edges */
+  );
+  pointer-events: none; /* lets clicks pass through */
+  z-index: 1;
+}
+
+.content h3 {
+  opacity: 0;
+  transition: opacity 0.3s ease; /* smooth fade */
+}
+
+.franchise:hover .content h3 {
+  opacity: 1;
 }
