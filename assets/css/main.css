@@ -1160,7 +1160,7 @@ input.main-search-input::placeholder {
   position: relative;
   list-style: none;
   display: inline-block;
-  margin-inline-end: 22px;
+  margin-inline-end: 12px;
   padding: 26px 0;
 }
 
@@ -1383,7 +1383,7 @@ input.main-search-input::placeholder {
 .header-1 .mega-menu-wrapper .header-main .header-left {
   display: flex;
   align-items: center;
-  gap: 80px;
+  gap: 40px;
 }
 
 .header-1 .mega-menu-wrapper .header-main .header-right {
@@ -11139,4 +11139,13 @@ transform: translate(-50%,50%);
 
 .franchise:hover .content h3 {
   opacity: 1;
+}
+/* utilities */
+/* 774 X 516 */
+.img-size{
+  width: 774px;
+  height: 516px;
+}
+.accordion-item{
+  margin-bottom: 20px;
 }
