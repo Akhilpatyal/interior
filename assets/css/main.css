@@ -3866,7 +3866,11 @@ input.main-search-input::placeholder {
 @media (max-width: 575px) {
   .about-wrapper .about-content .about-button {
     margin-top: 20px;
+    margin-bottom: 12px;
   }
+  .fa-8x {
+    font-size: 3em;
+}
 }
 
 .about-wrapper .about-content.style-3 .icon-items {
@@ -6986,7 +6990,7 @@ input.main-search-input::placeholder {
 
 @media (max-width: 575px) {
   .cta-banner-wrapper {
-    padding: 40px;
+    padding: 30px;
     text-align: center;
   }
 }
@@ -11128,7 +11132,7 @@ transform: translate(-50%,50%);
   z-index: 1;
 }
 
-.content h3 {
+.content-1 h3 {
   opacity: 0;
   transition: opacity 0.3s ease; /* smooth fade */
 }
