@@ -12,7 +12,7 @@ Version: 1.0.0
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #A6A182;
+  --theme: #17224d;
   --theme-2: #A6A182;
   --header: #000000;
   --base: #00813D;
@@ -1186,7 +1186,7 @@ input.main-search-input::placeholder {
 }
 
 .header-main .main-menu ul li a:hover {
-  color: var(--theme) !important;
+  color: white !important;
 }
 
 .header-main .main-menu ul li .submenu {
@@ -3868,9 +3868,10 @@ input.main-search-input::placeholder {
     margin-top: 20px;
     margin-bottom: 12px;
   }
+
   .fa-8x {
     font-size: 3em;
-}
+  }
 }
 
 .about-wrapper .about-content.style-3 .icon-items {
@@ -4416,7 +4417,7 @@ input.main-search-input::placeholder {
 
 .service-box-items .icon {
   font-size: 55px;
-  color: var(--theme);
+  color: white;
 }
 
 .service-box-items .content {
@@ -4527,11 +4528,11 @@ input.main-search-input::placeholder {
 }
 
 .service-box-items.style-2:hover {
-  border: 1px solid var(--theme);
+  border: 1px solid #fff;
 }
 
 .service-box-items.style-2.active {
-  border: 1px solid var(--theme);
+  border: 1px solid #fff;
 }
 
 .service-box-items.style-3 {
@@ -4542,7 +4543,7 @@ input.main-search-input::placeholder {
 }
 
 .service-box-items.style-3 .icon {
-  color: var(--theme);
+  color:#17224d;
   font-size: 48px;
 }
 
@@ -4560,6 +4561,9 @@ input.main-search-input::placeholder {
 .service-box-items.style-3:hover {
   background-color: var(--bg2);
   border-bottom: 3px solid var(--theme);
+}
+.service-box-items.style-3:hover .icon{
+color: #fff;
 }
 
 .service-box-items.style-3:hover.service-box-items.style-3 .content p {
@@ -10439,7 +10443,8 @@ p.sticky-label {
   border-radius: 5px;
 }
 
-.contact-wrapper-3 .contact-content,.contact-wrapper-4 .contact-content {
+.contact-wrapper-3 .contact-content,
+.contact-wrapper-4 .contact-content {
   background-color: var(--white);
   border-radius: 0 0 5px 0;
   padding: 40px;
@@ -10451,7 +10456,8 @@ p.sticky-label {
 }
 
 .contact-wrapper-3 .contact-content .contact-form-items .form-clt input,
-.contact-wrapper-3 .contact-content .contact-form-items .form-clt textarea,.contact-wrapper-4 .contact-content .contact-form-items .form-clt input,
+.contact-wrapper-3 .contact-content .contact-form-items .form-clt textarea,
+.contact-wrapper-4 .contact-content .contact-form-items .form-clt input,
 .contact-wrapper-4 .contact-content .contact-form-items .form-clt textarea {
   width: 100%;
   outline: none;
@@ -10698,7 +10704,7 @@ p.sticky-label {
 
 .footer-widgets-wrapper .single-footer-widget .list-items li a:hover {
   padding-left: 20px;
-  color: var(--theme);
+  color: white;
 }
 
 .footer-widgets-wrapper .single-footer-widget .list-items li a:hover::before {
@@ -10772,7 +10778,7 @@ p.sticky-label {
 
 .footer-bottom .footer-wrapper .footer-menu li a {
   color: rgba(255, 255, 255, 0.7019607843);
-  background-image: linear-gradient(var(--theme), var(--theme));
+  background-image: linear-gradient(#ffffff, #ffffff);
   background-position: 0 95%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
@@ -11069,7 +11075,7 @@ p.sticky-label {
   z-index: 9999;
   bottom: 50%;
   left: 50%;
-transform: translate(-50%,50%);
+  transform: translate(-50%, 50%);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -11081,11 +11087,11 @@ transform: translate(-50%,50%);
 
 @-webkit-keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 #a6a182;
+    -webkit-box-shadow: 0 0 0 0 #17224d;
   }
 
   70% {
-    -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    -webkit-box-shadow: 0 0 0 10px rgba(23, 34, 77, 0.5);
   }
 
   100% {
@@ -11095,8 +11101,8 @@ transform: translate(-50%,50%);
 
 @keyframes pulse {
   0% {
-    -moz-box-shadow: 0 0 0 0 #a6a182;
-    box-shadow: 0 0 0 0 #a6a182;
+    -moz-box-shadow: 0 0 0 0 #17224d;
+    box-shadow: 0 0 0 0 #17224d;
   }
 
   70% {
@@ -11111,41 +11117,56 @@ transform: translate(-50%,50%);
 }
 
 .hover-scale {
-  transition: transform 0.8s ease-in-out; /* apply to both states */
+  transition: transform 0.8s ease-in-out;
+  /* apply to both states */
 }
+
 .hover-scale:hover {
-  transform: scale(1.05); /* use transform instead of scale property */
+  transform: scale(1.05);
+  /* use transform instead of scale property */
 }
+
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: inherit; /* keeps rounded corners if parent has */
-  background: radial-gradient(
-    circle, 
-    rgba(0, 0, 0, 0.2) 0%,   /* lighter in the center */
-    rgba(0, 0, 0, 0.7) 100%  /* darker at the edges */
-  );
-  pointer-events: none; /* lets clicks pass through */
+  border-radius: inherit;
+  /* keeps rounded corners if parent has */
+  background: radial-gradient(circle,
+      rgba(0, 0, 0, 0.2) 0%,
+      /* lighter in the center */
+      rgba(0, 0, 0, 0.7) 100%
+      /* darker at the edges */
+    );
+  pointer-events: none;
+  /* lets clicks pass through */
   z-index: 1;
 }
 
 .content-1 h3 {
   opacity: 0;
-  transition: opacity 0.3s ease; /* smooth fade */
+  transition: opacity 0.3s ease;
+  /* smooth fade */
 }
 
 .franchise:hover .content h3 {
   opacity: 1;
 }
+
 /* utilities */
 /* 774 X 516 */
-.img-size{
+.img-size {
   width: 774px;
   height: 516px;
 }
-.accordion-item{
+.gallery-img-size{
+  width: 410px!important; 
+  height:336px!important ;
+  border-radius: 8px;
+}
+
+.accordion-item {
   margin-bottom: 20px;
 }
