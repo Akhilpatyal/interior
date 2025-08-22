@@ -1,11 +1,4 @@
-/*
-Theme Name: Oraxis
-Author: ModinaTheme
-Author URI: https://themeforest.net/user/modinatheme/
-Description: Architecture & Interior Html Template
-Version: 1.0.0
-*/
-/*CSS Table Of Content Ends Here*/
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap");
 
 :root {
@@ -14,7 +7,7 @@ Version: 1.0.0
   --white: #fff;
   --theme: #17224d;
   --theme-2: #A6A182;
-  --header: #000000;
+  --header: #00061f;
   --base: #00813D;
   --text: #54595F;
   --text2: #bfbfbf;
@@ -677,6 +670,7 @@ input.main-search-input::placeholder {
 
 .section-title h2 {
   text-transform: capitalize !important;
+  color: #00061f;
 }
 
 .section-title span {
@@ -1825,7 +1819,7 @@ input.main-search-input::placeholder {
 }
 
 .sticky.header-2 {
-  background-color: #060606;
+  background-color: #00061f;
 }
 
 .sticky .header-main .main-menu ul li {
@@ -3185,7 +3179,7 @@ input.main-search-input::placeholder {
   position: relative;
   z-index: 9;
   border-radius: 5px;
-  color: black;
+  color: #00061f;
 }
 
 @media (max-width: 575px) {
@@ -3254,6 +3248,7 @@ input.main-search-input::placeholder {
   margin-bottom: 20px;
   border-bottom: 2px solid var(--border);
   padding-bottom: 20px;
+   color: #00061f;
 }
 
 .work-process-items .icon {
@@ -3751,7 +3746,7 @@ input.main-search-input::placeholder {
 }
 
 .about-wrapper {
-  margin-top: 45px;
+  margin-top: 15px;
 }
 
 .about-wrapper .about-left-items {
@@ -5356,7 +5351,7 @@ color: #fff;
 }
 
 .footer-bg {
-  background-color: var(--black);
+  background-color: #00061f;
 }
 
 .background-black {
@@ -10639,7 +10634,7 @@ p.sticky-label {
 
 .footer-widgets-wrapper .single-footer-widget .footer-content .contact-info-area .contact-items .content h4 {
   color: var(--white);
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 5px;
 }
 
@@ -10684,7 +10679,7 @@ p.sticky-label {
 }
 
 .footer-widgets-wrapper .single-footer-widget .list-items li a {
-  font-size: 16px;
+  font-size: 20px;
   color: var(--white);
   position: relative;
 }
@@ -11145,15 +11140,6 @@ p.sticky-label {
   z-index: 1;
 }
 
-.content-1 h3 {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  /* smooth fade */
-}
-
-.franchise:hover .content h3 {
-  opacity: 1;
-}
 
 /* utilities */
 /* 774 X 516 */
