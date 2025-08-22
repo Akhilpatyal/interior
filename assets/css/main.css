@@ -1180,7 +1180,7 @@ input.main-search-input::placeholder {
 }
 
 .header-main .main-menu ul li a:hover {
-  color: white !important;
+  color: #00061f !important;
 }
 
 .header-main .main-menu ul li .submenu {
@@ -1819,11 +1819,14 @@ input.main-search-input::placeholder {
 }
 
 .sticky.header-2 {
-  background-color: #00061f;
+  background-color: #ffffff;
 }
 
 .sticky .header-main .main-menu ul li {
   padding: 20px 0;
+}
+.sticky.header-2 ul li a{
+  color:#00061f!important;
 }
 
 .sticky.header-4 .mega-menu-wrapper .header-main {
@@ -5351,7 +5354,7 @@ color: #fff;
 }
 
 .footer-bg {
-  background-color: #00061f;
+  background-color: #ffffff;
 }
 
 .background-black {
@@ -11155,4 +11158,11 @@ p.sticky-label {
 
 .accordion-item {
   margin-bottom: 20px;
+}
+.footer-section p,.footer-section h4,.footer-section h3,.footer-section a{
+  color:#00061f!important;
+}
+
+.social-icon a{
+  color: white!important;
 }
