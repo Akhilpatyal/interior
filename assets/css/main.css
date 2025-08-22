@@ -11166,3 +11166,6 @@ p.sticky-label {
 .social-icon a{
   color: white!important;
 }
+.sidebar__toggle img{
+  filter: invert();
+}
