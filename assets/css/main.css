@@ -11167,6 +11167,6 @@ p.sticky-label {
   color: white!important;
 }
 .sidebar__toggle img{
-  filter: invert();
+  filter: invert(1);
   color:yellow
 }
