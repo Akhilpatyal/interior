@@ -1548,7 +1548,7 @@ input.main-search-input::placeholder {
 }
 
 .header-1.header-2 .mega-menu-wrapper .header-main .main-menu ul li a {
-  color: var(--white);
+  color: var(--theme);
 }
 
 .header-1.header-2 .mega-menu-wrapper .header-main .main-menu ul li:hover a {
@@ -1799,8 +1799,8 @@ input.main-search-input::placeholder {
 
 /* update */
 .sticky-2 {
-  background-color: rgba(255, 255, 255, 0.279);
-  filter: blur(0.7);
+  background-color: white;
+  /* filter: blur(0.7); */
 }
 
 .sticky {
