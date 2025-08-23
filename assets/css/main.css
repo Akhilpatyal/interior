@@ -11155,14 +11155,18 @@ p.sticky-label {
   /* width: 774px; */
   height: 516px;
   border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (max-width:780px) {
   .img-size {
     width: auto;
     /* width: 774px; */
-    height: 430px;
+    /* height: 430px; */
     border-radius: 8px;
+    object-fit: cover;
+  object-position: center;
   }
 
 }
@@ -11171,6 +11175,8 @@ p.sticky-label {
   width: 410px !important;
   height: 336px !important;
   border-radius: 8px;
+   object-fit: cover;
+  object-position: center;
 }
 
 .accordion-item {
