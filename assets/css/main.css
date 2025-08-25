@@ -11198,3 +11198,27 @@ p.sticky-label {
   filter: invert(1);
   color: yellow
 }
+
+/* Service Box Styling */
+.service-box-items.style-3 {
+    min-height: 500px;        /* baseline consistent height */
+    height: auto;             /* expands if content grows */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+/* Make sure Swiper slides stretch evenly */
+.swiper-slide {
+    display: flex;
+    align-items: stretch;
+}
+
+.swiper-slide .service-box-items {
+    flex: 1;
+}
