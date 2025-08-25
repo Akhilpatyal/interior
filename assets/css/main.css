@@ -1376,7 +1376,7 @@ input.main-search-input::placeholder {
 .header-1 .mega-menu-wrapper .header-main .header-left {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 .header-1 .mega-menu-wrapper .header-main .header-right {
